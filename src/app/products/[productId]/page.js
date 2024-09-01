@@ -1,5 +1,5 @@
 function ProductDetails({ params }) {
-  console.log(params);
+  //   console.log(params);
   return <div>ProductDetails-{params.productId}</div>;
 }
 
