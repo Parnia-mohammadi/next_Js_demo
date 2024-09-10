@@ -4,7 +4,7 @@ export async function generateMetadata({ params }) {
   const id = params.productId;
   const title = await new Promise((resolve, reject) => {
     setTimeout(() => {
-      resolve(`T-shirt-${id}`);
+      resolve(`Products-${id}`);
     }, 1000);
   });
   return {
